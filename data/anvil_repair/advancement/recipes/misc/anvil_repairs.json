@@ -1,0 +1,55 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:anvil"
+          }
+        ]
+      }
+    },
+    "has_chipped_anvil_repair_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "anvil_repair:anvil_from_chipped_anvil"
+      }
+    },
+    "has_damaged_anvil_repair_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "anvil_repair:anvil_from_damaged_anvil"
+      }
+    },
+    "has_damaged_anvil_to_chipped_anvil_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "anvil_repair:chipped_anvil_from_damaged_anvil"
+      }
+    },
+    "has_combination_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "anvil_repair:anvil_from_combining_damaged_anvils"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_anvil",
+      "has_chipped_anvil_repair_recipe",
+      "has_damaged_anvil_repair_recipe",
+      "has_damaged_anvil_to_chipped_anvil_recipe",
+      "has_combination_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "anvil_repair:anvil_from_chipped_anvil",
+      "anvil_repair:anvil_from_damaged_anvil",
+      "anvil_repair:anvil_from_combining_damaged_anvils"
+    ]
+  }
+}

@@ -1,5 +1,5 @@
-Pack name:  
-Pack URL:   
+Pack name:  Anvil Repair
+Pack URL:   https://modrinth.com/datapack/anvil-repair
 Author:     Nicole / notblue / nicoleisnotblue
 Author URL: https://modrinth.com/user/notblue   
 
