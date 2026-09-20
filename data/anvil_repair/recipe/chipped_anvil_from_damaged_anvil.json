@@ -8,7 +8,7 @@
   ],
   "key": {
     "X": "minecraft:iron_ingot",
-    "A ": "minecraft:damaged_anvil"
+    "A": "minecraft:damaged_anvil"
   },
   "result": {
     "id": "minecraft:chipped_anvil",
