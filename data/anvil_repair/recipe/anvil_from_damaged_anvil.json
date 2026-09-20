@@ -3,13 +3,13 @@
   "group": "anvil",
   "category": "misc",
   "key": {
-    "#": "minecraft:damaged_anvil",
+    "A": "minecraft:damaged_anvil",
     "X": "minecraft:iron_ingot"
   },
   "pattern": [
     "XXX",
     "XXX",
-    " # "
+    " A "
   ],
   "result": {
     "count": 1,

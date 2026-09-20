@@ -4,11 +4,11 @@
   "category": "misc",
   "pattern": [
     "XXX",
-    " #  "
+    " A "
   ],
   "key": {
     "X": "minecraft:iron_ingot",
-    "# ": "minecraft:damaged_anvil"
+    "A ": "minecraft:damaged_anvil"
   },
   "result": {
     "id": "minecraft:chipped_anvil",
